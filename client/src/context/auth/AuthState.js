@@ -1,4 +1,5 @@
 import React, { useReducer } from 'react';
+import axios from 'axios';
 import AuthContext from './authContext';
 import authReducer from './authReducer';
 
@@ -26,8 +27,8 @@ const AuthtState = (props) => {
 
   //Load User
 
-  //Register User
-
+  // //Register User
+  // const register = async
   //Login user
 
   //Logout

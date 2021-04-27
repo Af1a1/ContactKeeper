@@ -11,7 +11,7 @@ const Login = () => {
   const onChange = (e) => setUser({ ...user, [e.target.name]: e.target.value });
 
   const onSubmit = (e) => {
-    e.preventDefaut();
+    e.preventDefault();
     console.log('Login submit');
   };
 
@@ -36,7 +36,7 @@ const Login = () => {
         </div>
         <input
           type='submit'
-          value='Rgister'
+          value='Register'
           className='btn btn-primary btn-block'
         />
       </form>
